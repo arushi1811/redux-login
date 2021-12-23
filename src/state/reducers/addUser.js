@@ -11,3 +11,8 @@ const addUser = (state=[], action) => {
 }
 
 export default addUser
+
+// const [addUser, setAddUser] = useState([])
+// Arushi signed up setAddUser([...addUser, {name: Arushi}])
+// Sajan signed up setAddUser([{...addUser, name: Sajan}])
+// addUser = [{name: Sajan}, {name: Arushi}]

@@ -14,3 +14,7 @@ const loggedReducer = (state={}, action) => {
 }
 
 export default loggedReducer
+
+// const [logged, setLogged] = useState({})
+// setLoggedIn({name, email})
+// setLoggedIn({})
